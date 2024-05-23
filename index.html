@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="asserts/css/style.css">
+  <title>Expenses chart component / Aydom solução</title>
+</head>
+<body>
+
+  <main class="main ">
+    <div class="main__header">
+      <div class="main__display">
+        <div class="main__display--titulo">
+          My balance <br>
+          <p>
+            $921.48
+          </p>
+        </div>
+      </div>
+      <div class="main__display--img">
+        <img src="../images//logo.svg" alt="">
+      </div>
+    </div>
+
+    <div class="main__contente">
+      <h1>Spending - Last 7 days</h1>
+      <div id="statsList" class="main__content--grafico">
+        <!-- here the chart -->
+      </div>
+      <!--
+
+         <figure class="main__contente--grafico">
+        <figure class="main__day">
+            <div id="mon" class="bar" data-amount="$17.45" style="height: 49.9905px; transition-duration: 0.666539s;"></div>
+            <figcaption>mon</figcaption>
+        </figure>
+        <figure class="main__day">
+            <div id="tue" class="bar" data-amount="$34.91" style="height: 100.01px; transition-duration: 1.33346s;"></div>
+            <figcaption>tue</figcaption>
+        </figure>
+        <figure class="main__day">
+            <div id="wed" class="bar" data-amount="$52.36" style="height: 150px; transition-duration: 2s;"></div>
+            <figcaption>wed</figcaption>
+        </figure>
+        <figure class="main__day">
+            <div id="thu" class="bar" data-amount="$31.07" style="height: 89.0088px; transition-duration: 1.18678s; background-color: rgb(118, 181, 188);"></div>
+            <figcaption>thu</figcaption>
+        </figure>
+        <figure class="main__day">
+            <div id="fri" class="bar" data-amount="$23.39" style="height: 67.0073px; transition-duration: 0.89343s;"></div>
+            <figcaption>fri</figcaption>
+        </figure>
+        <figure class="main__day">
+            <div id="sat" class="bar" data-amount="$43.28" style="height: 123.988px; transition-duration: 1.65317s;"></div>
+            <figcaption>sat</figcaption>
+        </figure>
+        <figure class="main__day">
+            <div id="sun" class="bar" data-amount="$25.48" style="height: 72.9947px; transition-duration: 0.973262s;"></div>
+            <figcaption>sun</figcaption>
+        </figure>
+    </figure>
+
+      -->
+     
+    <hr>
+    <div class="main__content--footer">
+      <div class="main__content--footer--total">
+        <h2 class="main__content--footer--titulo">
+          Total this month
+        </h2>
+        <p>
+          $478.33
+        </p>
+      </div>
+
+      <div class="main__content--footer--delt">
+        <h2 class="main__content--footer--titulo">
+          from last month
+        </h2>
+        <p>+2.4%</p>
+      </div>
+    </div>
+    </div>
+  </main>
+
+  <script src="asserts/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
