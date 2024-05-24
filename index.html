@@ -7,45 +7,54 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="asserts/css/style.css">
+  <!-- Define o título da página -->
   <title>Expenses chart component / Aydom solução</title>
 </head>
 <body>
 
-  <main class="main ">
+  <main class="main">
+    <!-- Cabeçalho da página -->
     <div class="main__header">
       <div class="main__display">
+        <!-- Exibe o saldo atual -->
         <div class="main__display--titulo">
-          My balance <br>
+          Meu saldo <br>
           <p>
             $921.48
           </p>
         </div>
       </div>
+      <!-- Exibe o logotipo -->
       <div class="main__display--img">
         <img src="../images//logo.svg" alt="">
       </div>
     </div>
 
+    <!-- Conteúdo principal -->
     <div class="main__contente">
-      <h1>Spending - Last 7 days</h1>
+      <!-- Título do gráfico -->
+      <h1>Gastos - Últimos 7 dias</h1>
       <div id="statsList" class="main__content--grafico">
-        <!-- here the chart -->
+        <!-- Aqui seria inserido o gráfico de gastos -->
       </div>
      
     <hr>
+    <!-- Rodapé com informações adicionais -->
     <div class="main__content--footer">
+      <!-- Total deste mês -->
       <div class="main__content--footer--total">
         <h2 class="main__content--footer--titulo">
-          Total this month
+          Total deste mês
         </h2>
         <p>
           $478.33
         </p>
       </div>
 
+      <!-- Variação em relação ao mês anterior -->
       <div class="main__content--footer--delt">
         <h2 class="main__content--footer--titulo">
-          from last month
+          Variação em relação ao mês anterior
         </h2>
         <p>+2.4%</p>
       </div>
@@ -53,6 +62,7 @@
     </div>
   </main>
 
+  <!-- Inclui o script principal e a biblioteca Axios -->
   <script src="asserts/js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
