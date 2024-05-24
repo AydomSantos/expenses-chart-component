@@ -48,6 +48,12 @@ main {
   font-size: 1.2rem;
 }
 
+.main__cor{
+  background: white;
+  padding: 1.8rem 2rem;
+  border-radius: 0.9rem;
+}
+
 .main__content h1 {
   font-size: 1.6rem;
   color: var(--dark-brown);
